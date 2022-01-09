@@ -376,7 +376,7 @@ class compression:
                                                 f=1
                                                 
                         
-                                    if  g>(2**34)-2:
+                                    if  g>(2**32)-2:
 	                                    e=(2**34)-1
 	                                    g=0
 	                                    f=0
