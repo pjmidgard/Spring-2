@@ -45,7 +45,7 @@ class compression:
                                                                         
                                                                         
                                                                         
-                                if g>(2**1)-2:
+                                if g>(2**24)-2:
                                         f=1
                                 
 
@@ -55,7 +55,7 @@ class compression:
                         x3=x2-x
                         xs=float(x3)
                         print(xs)
-                        if xs>0.0000000000000001:
+                        if xs>3.0000000000000001:
                                 print("Sorry, Your computer not enough fast!")
                                 raise SystemExit
                     if namez=="e":
